@@ -1,0 +1,14 @@
+.my-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .my-input:focus {
+    border-color: blue; 
+    transform: scale(1.05); 
+  }
+  
