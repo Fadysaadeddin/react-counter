@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Count } from "./Count";
+import { Count } from "./count";
 import { Button } from "./button+";
 import { Subtract } from "./button-";
 import { MyInput } from "./input";
 
-export const Counter = () => {
+const Counter = () => {
   const [count, setCount] = useState(0);
   const [ name , setName] = useState('')
 
@@ -44,4 +44,4 @@ export const Counter = () => {
   );
 };
 
-
+export default Counter;
