@@ -36,7 +36,7 @@ const Counter = () => {
       <h1 style={{ color: "orange" }}>
         {name === ""
           ? ""
-          : name === "fady" || "Fady"
+          : name === "fady" ||name === "Fady"
           ? `you are right .. ${name} is the best programmer ever `
           : `NOOOO .. ${name} can not do like this work       `   }
       </h1>
